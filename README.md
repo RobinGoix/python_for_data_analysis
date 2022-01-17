@@ -3,7 +3,13 @@
 ## préparation de la formation
 ### installations 
 - installer Anaconda Python 3.X version : https://www.anaconda.com/distribution/    
-l'installation d'anaconda doit se faire dans un répertoire où l'utilisateur à les droits d'écriture  
+l'installation d'Anaconda doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\Continuum\anaconda3`)
+- configurer les variables d'environnement utilisateur :
+il faut ajouter dans le path le chemin vers les dossiers anaconda suivants:
+    - `{path_to_anaconda}\anaconda3\`
+    - `{path_to_anaconda}\anaconda3\Scripts\`
+    - `{path_to_anaconda}\anaconda3\Library\bin\`
+    - `{path_to_anaconda}\anaconda3\Library\usr\bin\`
 - installer QGIS : https://qgis.org/en/site/forusers/download.html  
 
 ### formation autonome
@@ -11,7 +17,8 @@ La partie 1_essentials peut être suivie de façon autonome.
 Elle correspond à l'annexe «Python Language Essentials» du livre «Python for Data Analysis.pdf»  
 
 ### installations facultatives
-- installer Git Bash : https://gitforwindows.org/  
+- installer Git Bash : https://gitforwindows.org/
+- installer VSCode : https://code.visualstudio.com/
 - créer un compte github: https://github.com/join
 
 ## organisation du dossier
