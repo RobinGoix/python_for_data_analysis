@@ -1,43 +1,46 @@
-﻿# python_for_data_analysis
+﻿
+# python_for_data_analysis
 
-## préparation de la formation
-### installations 
-- installer Anaconda Python 3.X version : https://www.anaconda.com/distribution/    
-l'installation d'Anaconda doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\Continuum\anaconda3`)
-- configurer les variables d'environnement utilisateur :
+## Préparation de la formation
+### Installations 
+- installer Anaconda Python 3.X version : https://www.anaconda.com/products/distribution <font  color='red'>[Ticket iTOP nécessaire]</font>
+**ATTENTION**: l'installation d'Anaconda doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\Continuum\anaconda3`)
+- configurer les variables d'environnement *utilisateur* :
 il faut ajouter dans le path le chemin vers les dossiers anaconda suivants:
     - `{path_to_anaconda}\anaconda3\`
     - `{path_to_anaconda}\anaconda3\Scripts\`
     - `{path_to_anaconda}\anaconda3\Library\bin\`
     - `{path_to_anaconda}\anaconda3\Library\usr\bin\`
-- installer QGIS : https://qgis.org/en/site/forusers/download.html  
+- installer VSCode https://code.visualstudio.com/ <font  color='red'>[Ticket iTOP nécessaire]</font>
+**ATTENTION**: durant l'installation il faut cocher deux options permettant d'ouvrir un dossier dans VSCode avec un clic-droit 
+![](https://i.stack.imgur.com/mWd9I.png)
+
+### installations facultatives
+- installer QGIS : https://qgis.org/en/site/forusers/download.html  <font  color='red'>[Ticket iTOP nécessaire]</font>
+- installer git for windows: https://gitforwindows.org (avec toutes les options par défaut) <font  color='red'>[Ticket iTOP nécessaire]</font>
+- créer un compte GitHub https://github.com/
 
 ### formation autonome
 La partie 1_essentials peut être suivie de façon autonome.  
 Elle correspond à l'annexe «Python Language Essentials» du livre «Python for Data Analysis.pdf»  
 
-### installations facultatives
-- installer Git Bash : https://gitforwindows.org/
-- installer VSCode : https://code.visualstudio.com/
-- créer un compte github: https://github.com/join
-
-## organisation du dossier
+## Organisation du dossier
 
 ### 1_essentials
-Jupyter et Python
+Python et iPython (avec VSCode)
 
 ### 2_pandas
-bibliothèque Pandas
+Bibliothèque Pandas
 
 ### 3_geometries_and_graphs
-bibliothèques spécialisées : shapely, geopandas, networkx et requests
+Bibliothèques spécialisées : shapely, geopandas, networkx et requests
 
 ### 4_practice
-mise en application : tracer la carte d'accessibilité de la corse
+Mise en application : calculer et afficher la carte d'accessibilité de la Corse
 
 ### 5_correction
-correction : tracer la carte d'accessibilité de la corse
+Correction : calculer et afficher la carte d'accessibilité de la Corse
 
 ### pdf
-- Learning_Python_5th_Edition.pdf : présentation approfondie de python
-- Python for Data Analysis.pdf : présentation succinte de python et utilisation de la bibliothèque pandas
+- Learning_Python_5th_Edition.pdf : présentation approfondie de Python
+- Python for Data Analysis.pdf : présentation succinte de Python et utilisation de la bibliothèque pandas
