@@ -16,7 +16,6 @@ il faut ajouter dans le path le chemin vers les dossiers anaconda suivants:
 ![](https://i.stack.imgur.com/mWd9I.png)
 
 ### installations facultatives
-- installer QGIS : https://qgis.org/en/site/forusers/download.html  <font  color='red'>[Ticket iTOP nécessaire]</font>
 - installer git for windows: https://gitforwindows.org (avec toutes les options par défaut) <font  color='red'>[Ticket iTOP nécessaire]</font>
 - créer un compte GitHub https://github.com/
 
