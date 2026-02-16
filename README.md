@@ -3,14 +3,14 @@
 
 ## Préparation de la formation
 ### Installations 
-- installer Anaconda Python 3.X version : https://www.anaconda.com/products/distribution  
-**ATTENTION**: l'installation d'Anaconda doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\Continuum\anaconda3`)
+- installer Miniforge : https://github.com/conda-forge/miniforge
+**ATTENTION**: l'installation de Miniforge doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\miniforge3`)
 - configurer les variables d'environnement *utilisateur* :
 il faut ajouter dans le path le chemin vers les dossiers anaconda suivants:
-    - `{path_to_anaconda}\anaconda3\`
-    - `{path_to_anaconda}\anaconda3\Scripts\`
-    - `{path_to_anaconda}\anaconda3\Library\bin\`
-    - `{path_to_anaconda}\anaconda3\Library\usr\bin\`
+    - `{path_to_miniforge3}\miniforge3\`
+    - `{path_to_miniforge3}\miniforge3\Scripts\`
+    - `{path_to_miniforge3}\miniforge3\Library\bin\`
+    - `{path_to_miniforge3}\miniforge3\Library\usr\bin\`
 - installer VSCode https://code.visualstudio.com/  
 **ATTENTION**: durant l'installation il faut cocher deux options permettant d'ouvrir un dossier dans VSCode avec un clic-droit   
 ![](https://i.stack.imgur.com/mWd9I.png)
