@@ -3,8 +3,8 @@
 
 ## Préparation de la formation
 ### Installations 
-- installer Miniforge : https://github.com/conda-forge/miniforge  
-**ATTENTION**: l'installation de Miniforge doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\miniforge3`)
+- installer miniforge : https://github.com/conda-forge/miniforge    
+**ATTENTION**: l'installation de miniforge doit se faire dans un répertoire où l'utilisateur à les droits d'écriture (sur Windows cela peut être: `C:\Users\{username}\AppData\Local\miniforge3`)
 - configurer les variables d'environnement *utilisateur* :
 il faut ajouter dans le path le chemin vers les dossiers anaconda suivants:
     - `{path_to_miniforge3}\miniforge3\`
